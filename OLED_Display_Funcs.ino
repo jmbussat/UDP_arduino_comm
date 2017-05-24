@@ -1,3 +1,17 @@
+/* Text Display for the Arduino v2 for SSD1306 or SH1106 OLED modules
+
+   David Johnson-Davies - www.technoblogy.com - 31st August 2016
+   Arduino Uno or ATmega328
+   
+   CC BY 4.0
+   Licensed under a Creative Commons Attribution 4.0 International license: 
+   http://creativecommons.org/licenses/by/4.0/
+
+   Modified by Jean-Marie Bussat (work in progress 1/4/2017)
+    - Added I2C support
+    - Added support for some sort of scalable font (x2, x3, x4 original size)
+*/
+
 #ifdef I2C_DISPLAY
 #include <Wire.h>
 #define OLED_address  0x3c

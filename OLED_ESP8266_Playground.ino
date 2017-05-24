@@ -1,13 +1,3 @@
-/* Text Display for the Arduino v2 for SSD1306 or SH1106 OLED modules
-
-   David Johnson-Davies - www.technoblogy.com - 31st August 2016
-   Arduino Uno or ATmega328
-   
-   CC BY 4.0
-   Licensed under a Creative Commons Attribution 4.0 International license: 
-   http://creativecommons.org/licenses/by/4.0/
-*/
-
 #include <Time.h>
 #include <ESP8266WiFi.h>
 #include <ESP8266HTTPUpdateServer.h>
